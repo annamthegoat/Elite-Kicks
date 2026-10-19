@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Kicks | Shop</title>
+    <style>
+        /* Basic Page Setup */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #ffcc00;
+        }
+
+        .logo p {
+            margin: 5px 0 20px;
+            font-style: italic;
+        }
+
+        /* Navigation Menu */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            color: #ffcc00;
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .page-intro {
+            text-align: center;
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .page-intro h2 {
+            color: #1a1a1a;
+            font-size: 28px;
+        }
+
+        .product-category {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .product-category h3 {
+            color: #cc6600;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 8px;
+        }
+
+        .product-category h4 {
+            margin: 15px 0 5px;
+        }
+
+        .product-category p {
+            margin: 5px 0;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #1a1a1a;
+            font-size: 17px;
+        }
+
+        /* Lists — ordered + unordered for your assignment ✅ */
+        .popular-list {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+
+        .featured-items {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER & NAVIGATION — same on every page ✅ -->
+    <header>
+        <div class="logo">
+            <h1>Elite Kicks</h1>
+            <p>⚽ Premium Football Retail</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="page-intro">
+            <h2>Our Products</h2>
+            <p>Browse our full range of top-quality football boots, kits, and accessories from leading brands.</p>
+        </section>
+
+        <!-- CATEGORY 1: BOOTS -->
+        <section class="product-category">
+            <h3>Football Boots</h3>
+            <p>Performance boots for every surface and playing style.</p>
+
+            <h4>Top Picks:</h4>
+            <ol class="popular-list">
+                <li>
+                    <strong>Nike Mercurial Vapor</strong> — Speed & lightweight design
+                    <br>Price: <span class="price">£194.99</span>
+                </li>
+                <li>
+                    <strong>Adidas Predator Edge</strong> — Ultimate control & power
+                    <br>Price: <span class="price">£179.99</span>
+                </li>
+                <li>
+                    <strong>Puma Future Z</strong> — Agility & comfort
+                    <br>Price: <span class="price">£159.99</span>
+                </li>
+            </ol>
+        </section>
+
+        <!-- CATEGORY 2: KITS -->
+        <section class="product-category">
+            <h3>Official Team Kits</h3>
+            <p>Authentic home, away and third kits from top clubs — adult & junior sizes available.</p>
+
+            <h4>Featured Items:</h4>
+            <ul class="featured-items">
+                <li>Manchester City Home Jersey — £89.99</li>
+                <li>Arsenal Away Jersey — £84.99</li>
+                <li>Liverpool Home Shorts — £39.99</li>
+                <li>Personalised printing available — from £12.00</li>
+            </ul>
+        </section>
+
+        <!-- CATEGORY 3: ACCESSORIES -->
+        <section class="product-category">
+            <h3>Accessories</h3>
+            <p>Essential gear to complement your game.</p>
+            <ul class="featured-items">
+                <li>Premium Match Footballs — from £24.99</li>
+                <li>Shin Guards & Socks — from £9.99</li>
+                <li>Boot Bags & Kit Bags — from £14.99</li>
+                <li>Training Gloves — from £19.99</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Elite Kicks. All Rights Reserved.</p>
+        <p>Follow us: Instagram | Facebook | Twitter</p>
+    </footer>
+
+</body>
+</html>
